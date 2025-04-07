@@ -1,0 +1,1637 @@
+
+body {
+    font-family: 'Roboto';
+    margin: 0;
+    padding: 0;
+    background-color:whitesmoke;
+    border: 0px;
+    height: 500vh;
+}
+
+header {
+    background-color:white;
+    border-bottom: 1px solid black;
+}
+
+.menu1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 8px;
+}
+
+.menu1 .logo h1 {
+    font-size: 24px;
+    color: rgb(136, 3, 81);
+}
+
+.menu1 .sbar input {
+    padding: 7px;
+    font-size: 14px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    width: 300px;
+}
+
+.menu1 .child ul {
+    display: flex;
+    list-style-type: none;
+    gap: 15px;
+   
+}
+
+.menu1 .child ul li::after {
+    content: "||";
+    font-size: 1rem;
+}
+
+.menu-2{
+    border: 1px solid rgb(196, 191, 196);
+    height: 9vh;  
+    display: flex;
+    overflow-x: auto; 
+    white-space: nowrap;
+    scroll-behavior: smooth;
+    -ms-overflow-style: none;  
+    scrollbar-width: none; 
+   
+}
+
+.dropdown{
+    padding: 0%;
+   display: flex;
+   list-style-type:none;
+   justify-content: space-evenly;
+   font-size:20px;
+  }
+
+li{
+   font-size: 15px;
+   color: solid black;
+  }
+
+/* first drop down block for women ethinic*/
+
+.women{
+     padding: 20px 10px 19px 10px; 
+}
+
+.women:hover {
+   border-bottom: 3px solid purple;
+   color: purple;   
+}
+
+.saree {
+   position: absolute;
+   padding: 20px 30px;
+   width: 100%;
+   height: 230px;
+   top: 150px;
+   left: 0%;
+    display: none; 
+   color: purple;
+   background-color: white;
+   border-bottom:  1px solid lightslategray;
+   z-index: 1;
+}
+
+.opt-1:hover .saree {
+   display: block;
+}
+
+.inelements-1 {
+   display: block;
+   flex-direction: column;
+   color: rgb(118, 121, 120);
+}
+
+.cross-1 {
+   position: absolute;
+   top: 50px;
+   left: 25px;
+   margin-top: 20px;
+   list-style-type: none;
+   li {
+       margin: 4px;
+   }
+}
+
+.kurtis {
+   position: absolute;
+   padding: 20px 30px;
+   width: 200%;
+   height: 230px;
+   top: 150px;
+   left: 0%;
+   display: none;
+   margin-left: 190px;
+   color: purple;
+   background-color: aliceblue;
+   z-index: 1;
+}
+
+.opt-1:hover .kurtis {
+   display: block;
+
+}
+
+.kurta {
+   position: absolute;
+   padding: 20px 30px;
+   width: 200%;
+   height: 230px;
+   top: 150px;
+   left: 0%;
+   display: none;
+   margin-left: 340px;
+   color: purple;
+   background-color: white;
+   z-index: 1;
+}
+
+.opt-1:hover .kurta {
+   display: block;
+
+}
+
+.dupatta {
+
+   position: absolute;
+   padding: 20px 30px;
+   width: 200%;
+   height: 230px;
+   top: 150px;
+   left: 0%;
+   display: none;
+   margin-left: 510px;
+   color: purple;
+   background-color: aliceblue;
+   z-index: 1;
+}
+
+.opt-1:hover .dupatta {
+   display: block;
+}
+
+.allsu {
+   position: absolute;
+   padding: 20px 30px;
+   width: 200%;
+   height: 230px;
+   top: 150px;
+   left: 0%;
+   display: none;
+   margin-left: 670px;
+   color: purple;
+   background-color: white;
+   z-index: 1;
+}
+
+.opt-1:hover .allsu {
+   display: block;
+
+}
+
+
+
+.lehe {
+   position: absolute;
+   padding: 20px 30px;
+   width: 200%;
+   height: 230px;
+   top: 150px;
+   left: 0%;
+   display: none;
+   margin-left: 880px;
+   color: purple;
+   background-color: aliceblue;
+   z-index: 1;
+}
+
+.opt-1:hover .lehe {
+   display: block;
+
+}
+
+.blo {
+   margin-left: 100px;
+   position: absolute;
+   padding: 20px 30px;
+   width: 200%;
+   height: 230px;
+   top: 150px;
+   left: 0%;
+   display: none;
+   margin-left: 1070px;
+   color: purple;
+   background-color: white;
+   z-index: 1;
+}
+
+.opt-1:hover .blo {
+   display: block;
+
+}
+
+
+
+/*second block for women western*/
+
+
+
+
+.women-west{
+   padding: 20px 10px 19px 10px;
+}
+
+.women-west:hover {
+   border-bottom: 3px solid purple;
+   color: purple;
+}
+
+.top{
+   position: absolute;
+   padding: 20px 20px;
+   width: 200%;
+   height: 190px;
+   top: 150px;
+   left: 0%;
+   display: none;
+   color: purple;
+   background-color: white;
+   border-bottom:  1px solid lightslategray;
+   z-index: 1;
+}
+
+.opt-2:hover .top{
+   display: block;
+}
+
+.inelements-1{
+   display: block;
+   flex-direction: column;
+   color: rgb(118, 121, 120);
+}
+
+.cross-1{
+   position: absolute;
+   top: 50px;
+   left: 25px;
+   margin-top: 20px;
+
+   li {
+       margin: 4px;
+   }
+}
+
+.botto {
+   position: absolute;
+   padding: 20px 20px;
+   width: 200%;
+   height: 190px;
+   top: 150px;
+   left: 0%;
+   display: none;
+   margin-left: 150px;
+   color: purple;
+   background-color: aliceblue;
+   z-index: 1;
+}
+
+.opt-2:hover .botto{
+   display: block;
+}
+
+
+.inn {
+   position: absolute;
+   padding: 20px 20px;
+   width: 200%;
+   height: 190px;
+   top: 150px;
+   left: 0%;
+   display: none;
+   margin-left: 320px;
+   color: purple;
+   background-color: white;
+   z-index: 1;
+}
+
+.opt-2:hover .inn{
+   display: block;
+}
+
+.slee{position: absolute;
+   padding: 20px 20px;
+   width: 200%;
+   height: 190px;
+   top: 150px;
+   left: 0%;
+   display: none;
+   margin-left: 490px;
+   color: purple;
+   background-color: aliceblue;
+   z-index: 1;
+}
+
+.opt-2:hover .slee{
+   display: block;
+}
+
+.mater{
+   position: absolute;
+   padding: 20px 20px;
+   width: 200%;
+   height: 190px;
+   top: 150px;
+   left: 0%;
+   display: none;
+   margin-left: 680px;
+   color: purple;
+   background-color: white;
+   z-index: 1;
+}
+
+.opt-2:hover .mater{
+   display: block;
+}
+
+.sportw{
+   position: absolute;
+   padding: 20px 20px;
+   width: 200%;
+   height: 190px;
+   top: 150px;
+   left: 0%;
+   display: none;
+   margin-left: 900px;
+   color: purple; 
+   background-color: aliceblue; 
+   z-index: 1;  
+}
+
+.opt-2:hover .sportw{
+   display: block;
+}
+
+
+
+/*third block of dropdown for men */
+
+
+.men{
+   padding: 20px 10px 19px 10px;
+}
+
+.men:hover {
+   border-bottom: 3px solid purple;
+   color: purple;
+}
+
+.topw{
+   position: absolute;
+   padding: 20px 30px;
+   width: 200%;
+   height: 230px;
+   top: 150px;
+   left: 0%;
+   display: none;
+   color: purple;
+   background-color: white;
+   border-bottom:  1px solid lightslategray;
+   z-index: 1;
+}
+
+.opt-3:hover .topw{
+   display: block;
+}
+
+.inelements-1{
+   display: block;
+   flex-direction: column;
+   color: rgb(118, 121, 120);
+}
+
+.cross-1{
+   position: absolute;
+   top: 50px;
+   left: 25px;
+   margin-top: 20px;
+
+   li {
+       margin: 4px;
+   }
+}
+
+.botw {
+   position: absolute;
+   padding: 20px 30px;
+   width: 200%;
+   height: 230px;
+   top: 150px;
+   left: 0%;
+   display: none;
+   margin-left: 200px;
+   color: purple;
+   background-color: aliceblue;
+   z-index: 1;
+}
+
+.opt-3:hover .botw{
+   display: block;
+}
+
+.mena {
+   position: absolute;
+   padding: 20px 30px;
+   width: 200%;
+   height: 230px;
+   top: 150px;
+   left: 0%;
+   display: none;
+   margin-left: 380px;
+   color: purple;
+   background-color: white;
+   z-index: 1;
+}
+
+.opt-3:hover .mena{
+   display: block;
+}
+
+.menf{
+   position: absolute;
+   padding: 20px 30px;
+   width: 200%;
+   height: 230px;
+   top: 150px;
+   left: 0%;
+   display: none;
+   margin-left: 560px;
+   color: purple;
+   background-color: aliceblue;
+   z-index: 1;
+}
+
+.opt-3:hover .menf{
+   display: block;
+}
+
+.ethw{
+   position: absolute;
+   padding: 20px 30px;
+   width: 200%;
+   height: 230px;
+   top: 150px;
+   left: 0%;
+   display: none;
+   margin-left: 740px;
+   color: purple;
+   background-color: white;
+   z-index: 1;
+}
+
+.opt-3:hover .ethw{
+   display: block;
+}
+
+.innm{
+   position: absolute;
+   padding: 20px 30px;
+   width: 200%;
+   height: 230px;
+   top: 150px;
+   left: 0%;
+   display: none;
+   margin-left: 890px; 
+   color: purple;
+   background-color: aliceblue;  
+   z-index: 1; 
+}
+
+.opt-3:hover .innm{
+   display: block;
+}
+
+/*fourth block of dropdown for kids */
+
+
+.kids{
+   padding: 20px 10px 19px 10px;
+}
+
+.kids:hover {
+   border-bottom: 3px solid purple;
+   color: purple;
+   font-style: bold;
+}
+
+.Bgy{
+   position: absolute;
+   padding: 20px 30px;
+   width:100%;
+   height: 230px;
+   top: 150px;
+   left: 0%;
+   display: none;
+   color: purple;
+   background-color: white;
+   border-bottom:  1px solid lightslategray;
+   z-index: 1;
+}
+
+.opt-4:hover .Bgy{
+   display: block;
+}
+
+.inelements-1{
+   display: block;
+   flex-direction: column;
+   color: rgb(118, 121, 120);
+}
+
+.cross-1{
+   position: absolute;
+   top: 50px;
+   left: 25px;
+   margin-top: 20px;
+
+   li {
+       margin: 4px;
+   }
+}
+
+.infant{
+   position: absolute;
+   padding: 20px 30px;
+   width: 100%;
+   height: 230px;
+   top: 150px;
+   left: 0%;
+   display: none;
+   margin-left: 200px;
+   color: purple;
+   background-color: aliceblue;
+   z-index: 1;
+}
+
+.opt-4:hover .infant{
+   display: block;
+}
+
+.toys {
+   position: absolute;
+   padding: 20px 30px;
+   width: 200%;
+   height: 230px;
+   top: 150px;
+   left: 0%;
+   display: none;
+   margin-left: 380px;
+   color: purple;
+   background-color: white;
+   z-index: 1;
+}
+
+.opt-4:hover .toys{
+   display: block;
+}
+
+.cares{
+   position: absolute;
+   padding: 20px 30px;
+   width: 200%;
+   height: 230px;
+   top: 150px;
+   left: 0%;
+   display: none;
+   margin-left: 560px;
+   color: purple;
+   background-color: aliceblue;
+   z-index: 1;
+}
+
+.opt-4:hover .cares{
+   display: block;
+}
+
+/*fifth block of dropdown for homekitchen */
+
+
+.homekitchen{
+   padding: 20px 10px 19px 10px;
+}
+
+.homekitchen:hover {
+   border-bottom: 3px solid purple;
+   color: purple;
+   font-style: bold;
+}
+
+.ka{
+   position: absolute;
+   padding: 20px 30px;
+   width:100%;
+   height: 250px;
+   top: 150px;
+   left: 0%;
+   display: none;
+   color: purple;
+   background-color: white;
+   border-bottom:  1px solid lightslategray;
+   z-index: 1;
+}
+
+.opt-5:hover .ka{
+   display: block;
+}
+
+.inelements-1{
+   display: block;
+   flex-direction: column;
+   color: rgb(118, 121, 120);
+}
+
+.cross-1{
+   position: absolute;
+   top: 50px;
+   left: 25px;
+   margin-top: 20px;
+
+   li {
+       margin: 4px;
+   }
+}
+
+.hf{
+   position: absolute;
+   padding: 20px 30px;
+   width: 100%;
+   height: 250px;
+   top: 150px;
+   left: 0%;
+   display: none;
+   margin-left: 220px;
+   color: purple;
+   background-color: aliceblue;
+   z-index: 1;
+}
+
+.opt-5:hover .hf{
+   display: block;
+}
+
+.hd {
+   position: absolute;
+   padding: 20px 30px;
+   width: 200%;
+   height: 250px;
+   top: 150px;
+   left: 0%;
+   display: none;
+   margin-left: 480px;
+   color: purple;
+   background-color: white;
+   z-index: 1;
+}
+
+.opt-5:hover .hd{
+   display: block;
+}
+
+.kd{
+   position: absolute;
+   padding: 20px 30px;
+   width: 200%;
+   height: 250px;
+   top: 150px;
+   left: 0%;
+   display: none;
+   margin-left: 710px;
+   color: purple;
+   background-color: aliceblue;
+   z-index: 1;
+}
+
+.opt-5:hover .kd{
+   display: block;
+}
+.hi{
+   position: absolute;
+   padding: 20px 30px;
+   width: 200%;
+   height: 250px;
+   top: 150px;
+   left: 0%;
+   display: none;
+   margin-left: 910px;
+   color: purple;
+   background-color: white;
+   z-index: 1;
+}
+
+.opt-5:hover .hi{
+   display: block;
+}
+
+/*Sixth block of dropdown for beautyhealth*/
+
+
+.beautyhealth{
+   padding: 20px 10px 19px 10px;
+}
+
+.beautyhealth:hover {
+   border-bottom: 3px solid purple;
+   color: purple;
+   font-style: bold;
+}
+
+.makeup{
+   position: absolute;
+   padding: 20px 30px;
+   width:100%;
+   height: 230px;
+   top: 150px;
+   left: 0%;
+   display: none;
+   color: purple;
+   background-color: white;
+   border-bottom:  1px solid lightslategray;
+   z-index: 1;
+}
+
+.opt-6:hover .makeup{
+   display: block;
+}
+
+.inelements-1{
+   display: block;
+   flex-direction: column;
+   color: rgb(118, 121, 120);
+}
+
+.cross-1{
+   position: absolute;
+   top: 50px;
+   left: 25px;
+   margin-top: 20px;
+
+   li {
+       margin: 4px;
+   }
+}
+
+.skincare{
+   position: absolute;
+   padding: 20px 30px;
+   width: 100%;
+   height: 230px;
+   top: 150px;
+   left: 0%;
+   display: none;
+   margin-left: 180px;
+   color: purple;
+   background-color: aliceblue;
+   z-index: 1;
+}
+
+.opt-6:hover .skincare{
+   display: block;
+}
+
+.bm {
+   position: absolute;
+   padding: 20px 30px;
+   width: 200%;
+   height: 230px;
+   top: 150px;
+   left: 0%;
+   display: none;
+   margin-left: 420px;
+   color: purple;
+   background-color: white;
+   z-index: 1;
+}
+
+.opt-6:hover .bm{
+   display: block;
+}
+
+.mc{
+   position: absolute;
+   padding: 20px 30px;
+   width: 200%;
+   height: 230px;
+   top: 150px;
+   left: 0%;
+   display: none;
+   margin-left: 630px;
+   color: purple;
+   background-color: aliceblue;
+   z-index: 1;
+}
+
+.opt-6:hover .mc{
+   display: block;
+}
+.hc{
+   position: absolute;
+   padding: 20px 30px;
+   width: 200%;
+   height: 230px;
+   top: 150px;
+   left: 0%;
+   display: none;
+   margin-left: 850px;
+   color: purple;
+   background-color: white;
+   z-index: 1;
+}
+
+.opt-6:hover .hc{
+   display: block;
+}
+
+/*Seventh block of dropdown for jewellery  */
+
+
+.jewellery{
+   padding: 20px 10px 19px 10px;
+}
+
+.jewellery:hover {
+   border-bottom: 3px solid purple;
+   color: purple;
+}
+
+.jew{
+   position: absolute;
+   padding: 20px 30px;
+   width:100%;
+   height: 280px;
+   top: 150px;
+   left: 0%;
+   display: none;
+   color: purple;
+   background-color: white;
+   border-bottom:  1px solid lightslategray;
+   z-index: 1;
+}
+
+.opt-7:hover .jew{
+   display: block;
+}
+
+.inelements-1{
+   display: block;
+   flex-direction: column;
+   color: rgb(118, 121, 120);
+}
+
+.cross-1{
+   position: absolute;
+   top: 50px;
+   left: 25px;
+   margin-top: 20px;
+
+   li {
+       margin: 4px;
+   }
+}
+
+.menaccess{
+   position: absolute;
+   padding: 20px 30px;
+   width: 100%;
+   height: 280px;
+   top: 150px;
+   left: 0%;
+   display: none;
+   margin-left: 250px;
+   color: purple;
+   background-color: aliceblue;
+   z-index: 1;
+}
+
+.opt-7:hover .menaccess{
+   display: block;
+}
+
+.womenaccess{
+   position: absolute;
+   padding: 20px 30px;
+   width: 200%;
+   height: 280px;
+   top: 150px;
+   left: 0%;
+   display: none;
+   margin-left: 480px;
+   color: purple;
+   background-color: white;
+   z-index: 1;
+}
+
+.opt-7:hover .womenaccess{
+   display: block;
+}
+
+/*Eight block of dropdown for bags footwear*/
+
+
+.bagsfootwear{
+   padding: 20px 10px 19px 10px;
+}
+
+.bagsfootwear:hover {
+   border-bottom: 3px solid purple;
+   color: purple;
+}
+
+.wb{
+   position: absolute;
+   padding: 20px 30px;
+   width:100%;
+   height: 240px;
+   top: 150px;
+   left: 0%;
+   display: none;
+   color: purple;
+   background-color: white;
+   border-bottom:  1px solid lightslategray;
+   z-index: 1;
+}
+
+.opt-8:hover .wb{
+   display: block;
+}
+
+.inelements-1{
+   display: block;
+   flex-direction: column;
+   color: rgb(118, 121, 120);
+}
+
+.cross-1{
+   position: absolute;
+   top: 50px;
+   left: 25px;
+   margin-top: 20px;
+
+   li {
+       margin: 4px;
+   }
+}
+
+.mb{
+   position: absolute;
+   padding: 20px 30px;
+   width: 100%;
+   height: 240px;
+   top: 150px;
+   left: 0%;
+   display: none;
+   margin-left: 150px;
+   color: purple;
+   background-color: aliceblue;
+   z-index: 1;
+}
+
+.opt-8:hover .mb{
+   display: block;
+}
+
+.travel{
+   position: absolute;
+   padding: 20px 30px;
+   width: 200%;
+   height: 240px;
+   top: 150px;
+   left: 0%;
+   display: none;
+   margin-left: 400px;
+   color: purple;
+   background-color: white;
+   z-index: 1;
+}
+
+.opt-8:hover .travel{
+   display: block;
+}
+.foot{
+   position: absolute;
+   padding: 20px 30px;
+   width: 200%;
+   height: 240px;
+   top: 150px;
+   left: 0%;
+   display: none;
+   margin-left: 700px;
+   color: purple;
+   background-color: aliceblue;
+   z-index: 1;
+}
+
+.opt-8:hover .foot{
+   display: block;
+}
+.wfoot{
+   position: absolute;
+   padding: 20px 30px;
+   width: 200%;
+   height: 240px;
+   top: 150px;
+   left: 0%;
+   display: none;
+   margin-left: 870px;
+   color: purple;
+   background-color: white;
+   z-index: 1;
+}
+
+.opt-8:hover .wfoot{
+   display: block;
+}
+.kfoot{
+   position: absolute;
+   padding: 20px 30px;
+   width: 200%;
+   height: 240px;
+   top: 150px;
+   left: 0%;
+   display: none;
+   margin-left: 1050px;
+   color: purple;
+   background-color: aliceblue;
+   z-index: 1;
+}
+
+.opt-8:hover .kfoot{
+   display: block;
+}
+
+
+/*night block of dropdown for electronics*/
+
+
+.electronics{
+   padding: 20px 10px 19px 10px;
+}
+
+.electronics:hover {
+   border-bottom: 3px solid purple;
+   color: purple;
+}
+
+.audio{
+   position: absolute;
+   padding: 20px 30px;
+   width:100%;
+   height: 150px;
+   top: 150px;
+   left: 0%;
+   display: none;
+   color: purple;
+   background-color: white;
+   border-bottom:  1px solid lightslategray;
+   z-index: 1;
+}
+
+.opt-9:hover .audio{
+   display: block;
+}
+
+.inelements-1{
+   display: block;
+   flex-direction: column;
+   color: rgb(118, 121, 120);
+}
+
+.cross-1{
+   position: absolute;
+   top: 50px;
+   left: 25px;
+   margin-top: 20px;
+
+   li {
+       margin: 4px;
+   }
+}
+
+.mobile{
+   position: absolute;
+   padding: 20px 30px;
+   width: 100%;
+   height: 150px;
+   top: 150px;
+   left: 0%;
+   display: none;
+   margin-left: 280px;
+   color: purple;
+   background-color: aliceblue;
+   z-index: 1;
+}
+
+.opt-9:hover .mobile{
+   display: block;
+}
+
+.smart{
+   position: absolute;
+   padding: 20px 30px;
+   width: 200%;
+   height: 150px;
+   top: 150px;
+   left: 0%;
+   display: none;
+   margin-left: 550px;
+   color: purple;
+   background-color: white;
+   z-index: 1;
+}
+
+.opt-9:hover .smart{
+   display: block;
+}
+
+
+/*Tenth block of dropdown for sports */
+
+
+.sports{
+   padding: 20px 10px 19px 10px;
+}
+
+.sports:hover {
+   border-bottom: 3px solid purple;
+   color: purple;
+}
+
+.fitness{
+   position: absolute;
+   padding: 20px 30px;
+   width:100%;
+   height: 150px;
+   top: 150px;
+   left: 0%;
+   display: none;
+   color: purple;
+   background-color: white;
+   border-bottom:  1px solid lightslategray;
+   z-index: 1;
+}
+
+.opt-10:hover .fitness{
+   display: block;
+}
+
+.inelements-1{
+   display: block;
+   flex-direction: column;
+   color: rgb(118, 121, 120);
+}
+
+.cross-1{
+   position: absolute;
+   top: 50px;
+   left: 25px;
+   margin-top: 20px;
+
+   li {
+       margin: 4px;
+   }
+}
+
+.sport{
+   position: absolute;
+   padding: 20px 30px;
+   width: 100%;
+   height: 150px;
+   top: 150px;
+   left: 0%;
+   display: none;
+   margin-left: 250px;
+   color: purple;
+   background-color: aliceblue;
+   z-index: 1;
+}
+
+.opt-10:hover .sport{
+   display: block;
+}
+
+/*Eleventh block of dropdown for vehicle*/
+
+
+.vehicle{
+   padding: 20px 10px 19px 10px;
+}
+
+.vehicle:hover {
+   border-bottom: 3px solid purple;
+   color: purple;
+}
+
+.car{
+   position: absolute;
+   padding: 20px 30px;
+   width:100%;
+   height: 150px;
+   top: 150px;
+   left: 0%;
+   display: none;
+   color: purple;
+   background-color: white;
+   border-bottom:  1px solid lightslategray;
+   z-index: 1;
+}
+
+.opt-11:hover .car{
+   display: block;
+}
+
+.inelements-1{
+   display: block;
+   flex-direction: column;
+   color: rgb(118, 121, 120);
+}
+
+.cross-1{
+   position: absolute;
+   top: 50px;
+   left: 25px;
+   margin-top: 20px;
+
+   li {
+       margin: 4px;
+   }
+}
+
+.motorbike{
+   position: absolute;
+   padding: 20px 30px;
+   width: 100%;
+   height: 150px;
+   top: 150px;
+   left: 0%;
+   display: none;
+   margin-left: 250px;
+   color: purple;
+   background-color: aliceblue;
+   z-index: 1;
+}
+
+.opt-11:hover .motorbike{
+   display: block;
+}
+
+/*Tweleth block of dropdown for office  */
+
+
+.office{
+   padding: 20px 10px 19px 10px;
+}
+
+.office:hover {
+   border-bottom: 3px solid purple;
+   color: purple;
+}
+
+.state{
+   position: absolute;
+   padding: 20px 30px;
+   width:100%;
+   height: 170px;
+   top: 150px;
+   left: 0%;
+   display: none;
+   color: purple;
+   background-color: white;
+   border-bottom:  1px solid lightslategray;
+   z-index: 1;
+}
+
+.opt-12:hover .state{
+   display: block;
+}
+
+.inelements-1{
+   display: block;
+   flex-direction: column;
+   color: rgb(118, 121, 120);
+}
+
+.cross-1{
+   position: absolute;
+   top: 50px;
+   left: 25px;
+   margin-top: 20px;
+
+   li {
+       margin: 4px;
+   }
+}
+
+
+
+/*Thirteenth block of dropdown for pets  */
+
+
+.pet{
+   padding: 20px 10px 19px 10px;
+}
+
+.pet:hover {
+   border-bottom: 3px solid purple;
+   color: purple;
+}
+
+.pets{
+   position: absolute;
+   padding: 20px 30px;
+   width:100%;
+   height: 170px;
+   top: 150px;
+   left: 0%;
+   display: none;
+   color: purple;
+   background-color: white;
+   border-bottom:  1px solid lightslategray;
+   z-index: 1;
+}
+
+.opt-13:hover .pets{
+   display: block;
+}
+
+.inelements-1{
+   display: block;
+   flex-direction: column;
+   color: rgb(118, 121, 120);
+}
+
+.cross-1{
+   position: absolute;
+   top: 50px;
+   left: 25px;
+   margin-top: 20px;
+
+   li {
+       margin: 4px;
+   }
+}
+
+
+
+/*Fourteenth block of dropdown for foods  */
+
+
+.foodd{
+   padding: 20px 10px 19px 10px;
+}
+
+.foodd:hover {
+   border-bottom: 3px solid purple;
+   color: purple;
+}
+
+.fooddrink{
+   position: absolute;
+   padding: 20px 30px;
+   width:100%;
+   height: 170px;
+   top: 150px;
+   left: 0%;
+   display: none;
+   color: purple;
+   background-color: white;
+   border-bottom:  1px solid lightslategray;
+   z-index: 1;
+}
+
+.opt-14:hover .fooddrink{
+   display: block;
+}
+
+.inelements-1{
+   display: block;
+   flex-direction: column;
+   color: rgb(118, 121, 120);
+}
+
+.cross-1{
+   position: absolute;
+   top: 50px;
+   left: 25px;
+   margin-top: 20px;
+
+   li {
+       margin: 4px;
+   }
+}
+
+
+
+/*Fifteenth block of dropdown for music */
+
+
+.music{
+   padding: 20px 10px 19px 10px;
+}
+
+.music:hover {
+   border-bottom: 3px solid purple;
+   color: purple;
+}
+
+.instru{
+   position: absolute;
+   padding: 20px 30px;
+   width:100%;
+   height: 140px;
+   top: 150px;
+   left: 0%;
+   display: none;
+   color: purple;
+   background-color: white;
+   border-bottom:  1px solid lightslategray;
+   z-index: 1;
+}
+
+.opt-15:hover .instru{
+   display: block;
+}
+
+.inelements-1{
+   display: block;
+   flex-direction: column;
+   color: rgb(118, 121, 120);
+}
+
+.cross-1{
+   position: absolute;
+   top: 50px;
+   left: 25px;
+   margin-top: 20px;
+
+   li {
+       margin: 4px;
+   }
+}
+
+
+/*Sixteenth block of dropdown for books */
+
+
+.book{
+   padding: 20px 10px 19px 10px;
+}
+
+.book:hover {
+   border-bottom: 3px solid purple;
+   color: purple;
+}
+
+.read{
+   position: absolute;
+   padding: 20px 30px;
+   width:100%;
+   height: 180px;
+   top: 150px;
+   left: 0%;
+   display: none;
+   color: purple;
+   background-color: white;
+   border-bottom:  1px solid lightslategray;
+   z-index: 1;
+}
+
+.opt-16:hover .read{
+   display: block;
+}
+
+.inelements-1{
+   display: block;
+   flex-direction: column;
+   color: rgb(118, 121, 120);
+}
+
+.cross-1{
+   position: absolute;
+   top: 50px;
+   left: 25px;
+   margin-top: 20px;
+
+   li {
+       margin: 4px;
+   }
+}
+
+.academy{
+   position: absolute;
+   padding: 20px 30px;
+   width: 100%;
+   height: 180px;
+   top: 150px;
+   left: 0%;
+   display: none;
+   margin-left: 250px;
+   color: purple;
+   background-color: aliceblue;
+   z-index: 1;
+}
+
+.opt-16:hover .academy{
+   display: block;
+}
+
+ img{
+   align-items: center;
+   justify-content: center;
+   bottom:310px;
+   display: flex;
+   margin-left: 700px;
+   position: relative;
+   height: 51vh;
+ }
+ 
+ .container{
+   position: relative;
+   margin-left: 230px;
+   top: 32px;
+   background-color: aliceblue;
+   width: 470px;
+   height: 51vh;
+   font-size: 18px;
+   color: rgb(48, 42, 42);
+ }
+
+ .free{
+   display:flex; 
+   margin: 30px;
+   font-family: sans-serif;
+   position: relative;
+   bottom:550px;
+   left:210px;
+   font-size: 15px;
+   gap:90px;
+   background-color: white;
+   width: 400px;
+   height: 60px;
+   align-items: center;
+ }
+ 
+ .imm{
+     display:flex; 
+     margin: 30px;
+     font-family: sans-serif;
+     position: relative;
+     top:-63px;
+     left:-10px;
+     font-size: 15px;
+     gap:113px;
+ }
+ 
+ button{
+     padding:2px;
+     height:50px ;
+     width:310px;
+     background-color: rgb(131, 19, 131);
+     border: 0px;
+     border-radius: 5px;
+     position: absolute;
+     top:460px;
+     color: antiquewhite;    
+     align-items: center;
+     margin-left: 250px;
+    
+    
+    
+    img{
+     height:23px;
+     width:23px;
+     position: relative;
+     right: 690px;
+     top: 10px;
+     
+
+    }
+ }
+ h3{
+     position:relative;
+     left: 10px;
+     top: -28px;
+     font-size:18px;
+ }
+ 
+ .title {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 30px;
+   position: relative;
+   font-size: bold;
+   color: rgba(0, 0, 0, 0.752);
+   bottom:350px;
+}
+
